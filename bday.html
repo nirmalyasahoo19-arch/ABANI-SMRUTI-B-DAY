@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Happy Birthday Smruti 🎂</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bday.css">
 </head>
 
 <body>
 
   <div class="stars"></div>
 
-  <!-- Balloons -->
+  <!-- Floating Balloons -->
   <img class="balloon" src="https://cdn-icons-png.flaticon.com/512/3468/3468377.png" style="left:10%; animation-duration:12s;">
   <img class="balloon" src="https://cdn-icons-png.flaticon.com/512/3468/3468377.png" style="left:30%; animation-duration:9s;">
   <img class="balloon" src="https://cdn-icons-png.flaticon.com/512/3468/3468377.png" style="left:50%; animation-duration:11s;">
@@ -20,35 +21,40 @@
   <img class="balloon" src="https://cdn-icons-png.flaticon.com/512/3468/3468377.png" style="left:90%; animation-duration:10s;">
 
   <div class="container">
-    <div class="birthday-text">
+
+    <!-- Smruti Image -->
+    <img src="234.jpeg" class="profile-img">
+
+    <h1 class="birthday-text">
       HAPPY BIRTHDAY
-    </div>
+    </h1>
 
-    <div class="name">
+    <h2 class="name">
       SMRUTI 🎉
-    </div>
+    </h2>
 
-    <div class="message">
-      May your day shine brighter than the stars ✨  
-      and your smile stay forever beautiful 💖  
-      Wishing you unlimited happiness, success, love,  
-      crazy memories and magical moments ahead 🎂🥂
-    </div>
+    <p class="message">
+      May your smile always shine brighter than the stars ✨ <br>
+      Wishing you endless happiness, success, laughter & beautiful memories 💖 <br>
+      Keep smiling and keep shining forever 🌸🎂
+    </p>
 
     <button class="btn" onclick="playWish()">
       🎵 Click For Surprise
     </button>
+
   </div>
 
   <div class="footer">
     Made with ❤️ specially for Smruti
   </div>
 
+  <!-- Birthday Music -->
   <audio id="song">
     <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
   </audio>
 
-  <script src="script.js"></script>
+  <script src="bday.js"></script>
 
 </body>
 </html>
